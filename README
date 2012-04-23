@@ -1,0 +1,10 @@
+process-wikipedia
+=================
+
+a set of tools to sort the wikipedia xml dump
+
+Intended process:
+-Download compressed xml dump
+-run wikixml2txt.py on uncompressed xml to extract pages to individual .txt files
+-run extract_namespaces.py on directory of .txt files to sort into namspace directories
+-use data as desired
